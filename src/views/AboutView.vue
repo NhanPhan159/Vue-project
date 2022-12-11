@@ -17,7 +17,7 @@ export default{
   },
   mounted () {
     axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .get('https://thanhnhan.pythonanywhere.com/teachers/1/')
       .then(response => (this.info = response.data))
   }
 }
